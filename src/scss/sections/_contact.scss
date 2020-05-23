@@ -1,56 +1,36 @@
-// Styling for the contact section
-section#contact {
-    background-color: $gray-900;
-    background-image: url("../assets/img/map-image.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    .section-heading {
-        color: $white;
-    }
-    form#contactForm {
-        .form-group {
-            margin-bottom: $grid-gutter-width;
-            input,
-            textarea {
-                padding: 1.25rem;
-            }
-            input.form-control {
-                height: auto;
-            }
+.contact-section {
+    padding-top: 5rem;
+    .card {
+        border: 0;
+        border-bottom: 0.25rem solid $primary;
+        h4 {
+            font-size: 0.8rem;
+            font-family: $font-family-special;
+            text-transform: uppercase;
+            letter-spacing: 0.15rem;
         }
-        .form-group-textarea {
-            height: 100%;
-            textarea {
-                height: 100%;
-                min-height: 10rem;
-            }
-        }
-        p.help-block {
-            margin: 0;
-        }
-        .form-control:focus {
+        hr {
             border-color: $primary;
-            box-shadow: none;
+            border-width: 0.25rem;
+            width: 3rem;
         }
-        ::-webkit-input-placeholder {
-            font-family: $headings-font-family;
-            font-weight: $headings-font-weight;
-            color: $gray-400;
-        }
-        :-moz-placeholder {
-            font-family: $headings-font-family;
-            font-weight: $headings-font-weight;
-            color: $gray-400;
-        }
-        ::-moz-placeholder {
-            font-family: $headings-font-family;
-            font-weight: $headings-font-weight;
-            color: $gray-400;
-        }
-        :-ms-input-placeholder {
-            font-family: $headings-font-family;
-            font-weight: $headings-font-weight;
-            color: $gray-400;
+    }
+    .social {
+        margin-top: 5rem;
+        a {
+            text-align: center;
+            height: 3rem;
+            width: 3rem;
+            background: fade-out($white, 0.9);
+            border-radius: 100%;
+            line-height: 3rem;
+            color: fade-out($white, 0.7);
+            &:hover {
+                color: fade-out($white, 0.5);
+            }
+            &:active {
+                color: $white;
+            }
         }
     }
 }

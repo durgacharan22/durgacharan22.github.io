@@ -1,11 +1,14 @@
 // Override Bootstrap color system
 
-$yellow: #fed136;
+$teal: #64a19d;
+$black: #000000;
 
 // Override Bootstrap default state colors
 
-$primary: $yellow;
+$primary: $teal;
 
-// Override Bootstrap yiq lightness value
+// Add colors to the color map
 
-$yiq-contrasted-threshold: 205;
+$theme-colors: (
+    "black": $black,
+);
