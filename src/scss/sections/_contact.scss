@@ -1,36 +1,56 @@
-.contact-section {
-    padding-top: 5rem;
-    .card {
-        border: 0;
-        border-bottom: 0.25rem solid $primary;
-        h4 {
-            font-size: 0.8rem;
-            font-family: $font-family-special;
-            text-transform: uppercase;
-            letter-spacing: 0.15rem;
-        }
-        hr {
-            border-color: $primary;
-            border-width: 0.25rem;
-            width: 3rem;
-        }
+// Styling for the contact section
+section#contact {
+    background-color: $gray-900;
+    background-image: url("../assets/img/map-image.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    .section-heading {
+        color: $white;
     }
-    .social {
-        margin-top: 5rem;
-        a {
-            text-align: center;
-            height: 3rem;
-            width: 3rem;
-            background: fade-out($white, 0.9);
-            border-radius: 100%;
-            line-height: 3rem;
-            color: fade-out($white, 0.7);
-            &:hover {
-                color: fade-out($white, 0.5);
+    form#contactForm {
+        .form-group {
+            margin-bottom: $grid-gutter-width;
+            input,
+            textarea {
+                padding: 1.25rem;
             }
-            &:active {
-                color: $white;
+            input.form-control {
+                height: auto;
             }
+        }
+        .form-group-textarea {
+            height: 100%;
+            textarea {
+                height: 100%;
+                min-height: 10rem;
+            }
+        }
+        p.help-block {
+            margin: 0;
+        }
+        .form-control:focus {
+            border-color: $primary;
+            box-shadow: none;
+        }
+        ::-webkit-input-placeholder {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            color: $gray-400;
+        }
+        :-moz-placeholder {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            color: $gray-400;
+        }
+        ::-moz-placeholder {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            color: $gray-400;
+        }
+        :-ms-input-placeholder {
+            font-family: $headings-font-family;
+            font-weight: $headings-font-weight;
+            color: $gray-400;
         }
     }
 }

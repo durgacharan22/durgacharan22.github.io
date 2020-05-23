@@ -15,7 +15,7 @@
             if (target.length) {
                 $("html, body").animate(
                     {
-                        scrollTop: target.offset().top - 70,
+                        scrollTop: target.offset().top - 72,
                     },
                     1000,
                     "easeInOutExpo"
@@ -33,7 +33,7 @@
     // Activate scrollspy to add active class to navbar items on scroll
     $("body").scrollspy({
         target: "#mainNav",
-        offset: 100,
+        offset: 74,
     });
 
     // Collapse Navbar
