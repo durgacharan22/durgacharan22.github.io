@@ -1,6 +1,6 @@
 {
-    "title": "Grayscale",
-    "name": "startbootstrap-grayscale",
+    "title": "durgacharan22",
+    "name": "Durga Charan Potukuru - My Portfolio",
     "version": "6.0.1",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "A grayscale one page HTML theme for Bootstrap.",
+    "description": "My Portfolio",
     "keywords": [
         "css",
         "sass",
@@ -21,19 +21,14 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/themes/grayscale",
-    "bugs": {
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale/issues",
-        "email": "feedback@startbootstrap.com"
-    },
-    "license": "MIT",
-    "author": "Start Bootstrap",
+    "homepage": "https://durgacharan22.github.io/",
+    "author": "Durga Charan Potukuru",
     "contributors": [
-        "David Miller (http://davidmiller.io/)"
+        "Durga Charan Potukuru (https://durgacharan22.github.io/)"
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/BlackrockDigital/startbootstrap-grayscale.git"
+        "url": "https://github.com/durgacharan22/durgacharan22.github.io"
     },
     "dependencies": {
         "bootstrap": "4.5.0"
