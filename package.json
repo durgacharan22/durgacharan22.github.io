@@ -31,18 +31,18 @@
         "url": "https://github.com/durgacharan22/durgacharan22.github.io"
     },
     "dependencies": {
-        "bootstrap": "4.5.0"
+        "bootstrap": "4.6.2"
     },
     "devDependencies": {
-        "autoprefixer": "9.8.0",
-        "browser-sync": "2.26.7",
-        "chokidar": "3.4.0",
-        "concurrently": "5.2.0",
-        "postcss": "7.0.30",
-        "prettier": "2.0.5",
-        "pug": "2.0.4",
-        "sass": "1.26.5",
-        "shelljs": "0.8.4",
-        "upath": "1.2.0"
+        "autoprefixer": "10.4.16",
+        "browser-sync": "2.29.3",
+        "chokidar": "3.5.3",
+        "concurrently": "8.2.2",
+        "postcss": "8.4.32",
+        "prettier": "3.1.1",
+        "pug": "3.0.2",
+        "sass": "1.69.5",
+        "shelljs": "0.8.5",
+        "upath": "2.0.1"
     }
 }
